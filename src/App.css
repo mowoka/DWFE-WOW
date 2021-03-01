@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f2f2;
+}
+
+.background--gray {
+  background-color: #f0f0f0;
+}
+
+.beranda-container {
+  max-width: 1349px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+}
+
+.beranda--container-profile {
+  /* border: 1px solid black; */
+  width: 22%;
+  height: 600px;
+}
+.beranada--container-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.--color-text-green {
+  color: #29bd11;
+}
+.--color-text-red {
+  color: #d60000;
+}
+.--bg-green {
+  background: #29bd11;
+}
+.--bg-red {
+  background: #d60000;
+}

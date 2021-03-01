@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.book--detail-container {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 60px; */
+  margin-top: 130px;
+}
+.book--detail-title {
+  display: flex;
+  flex-direction: row;
+}
+.detail-content-image img {
+  width: 400px;
+  height: 540px;
+  margin-right: 40px;
+}
+.detail-content-description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.content-book-title h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 64px;
+  font-weight: bold;
+}
+.content-book-title p {
+  font-size: 24px;
+  color: #929292;
+}
+.content-book-publish h2 {
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.content-book-publish p {
+  font-size: 18px;
+  color: #929292;
+}
+.content-book-page h2 {
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.content-book-page p {
+  font-size: 18px;
+  color: #929292;
+}
+.content-book-Type h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #d60000;
+}
+.content-book-Type p {
+  font-size: 18px;
+  color: #929292;
+}
+.book--detail-description {
+  margin-top: 100px;
+}
+.--detail-description-title h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+.--detail-description-text {
+  margin-top: 20px;
+  width: 98%;
+}
+.--detail-description-text p {
+  font-size: 18px;
+  color: #929292;
+  text-align: justify;
+}
+.book-detail-action {
+  display: flex;
+  flex-direction: row;
+  margin-left: 720px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.action-adding {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 10px;
+  padding-right: 8px;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #d60000;
+  cursor: pointer;
+}
+.active {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 10px;
+  padding-right: 8px;
+  color: #f2f2f2;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+}
+.action-adding p {
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+.action-adding .add-btn {
+  font-size: 25px;
+  padding-top: 6px;
+  text-align: center;
+}
+.action-read {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10px;
+  padding-left: 8px;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #929292;
+}
+.action-read:hover {
+  color: #fff;
+  background-color: black;
+  cursor: pointer;
+}
+.action-read p {
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+.action-read .read-btn {
+  padding-top: 6px;
+  font-size: 25px;
+}

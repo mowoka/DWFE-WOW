@@ -1,0 +1,21 @@
+.read--book-container {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.read-title {
+  margin-left: 60px;
+}
+.read-title img {
+  margin-top: 27px;
+  margin-left: 12px;
+  width: 105.03px;
+  height: 84.04px;
+}
+
+.read-book {
+  margin-left: 44px;
+  max-width: 1230px;
+  height: 630px;
+  margin-top: 51px;
+  border-radius: 10px;
+}
